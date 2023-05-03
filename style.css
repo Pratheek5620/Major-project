@@ -1,0 +1,55 @@
+body {
+	background-image: url('steptodown_com949354.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.login-box {
+	margin: auto;
+	margin-top: 100px;
+	width: 400px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.login-box h1 {
+	margin-top: 0;
+}
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+form input {
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.3s ease
+}

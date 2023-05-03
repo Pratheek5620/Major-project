@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WELCOME TO BMTC</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <head>
+        <h1> WELCOME TO BMTC</h1>
+    </head>
+    <div class="login-box">
+		<h1>Login</h1>
+		<form>
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required>
+
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+
+			<input type="submit" value="Login" onclick="checkLogin()">
+		</form>
+	</div>
+
+	<script>
+		function checkLogin() {
+			var username = document.getElementById("username").value;
+			var password = document.getElementById("password").value;
+
+			// Check if the login credentials are correct
+			if (username === "myusername" && password === "mypassword") {
+				// Redirect to the next page
+				window.location.href = "ticket_booking.html";
+			} else {
+				alert("Invalid login credentials. Please try again.");
+			}
+		}
+	</script>
+</body>
+</html>

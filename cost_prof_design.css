@@ -1,0 +1,44 @@
+.customer-profile {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .customer-profile h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .customer-profile img {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .customer-info {
+    text-align: left;
+    border: 2px solid #ccc;
+    padding: 20px;
+  }
+  
+  .customer-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .customer-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .customer-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .customer-info li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
